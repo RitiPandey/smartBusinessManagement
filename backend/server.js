@@ -6,7 +6,14 @@ require('dotenv').config();
 const app = express();
 
 // Middlewares
-app.use(cors());
+const corsOptions = {
+  origin: [
+    'http://localhost:5173',
+    'smart-business-management-liard.vercel.app',   // your actual URL here
+  ],
+  credentials: true,
+};
+app.use(cors(corsOptions));
 app.use(express.json());  // ← must be BEFORE the routes
 // Route imports (we add these day by day)
 const authRoutes = require('./routes/auth');
