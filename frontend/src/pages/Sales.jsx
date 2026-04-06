@@ -369,7 +369,7 @@ export default function Sales() {
                     </div>
                   </div>
                 ) : (
-                  <div className="rounded-3xl border border-dashed border-slate-200 bg-slate-50 p-5 text-sm text-slate-500">
+                  <div className="rounded-4xl border border-dashed border-slate-200 bg-slate-50 p-5 text-sm text-slate-500">
                     Select a product to preview pricing details.
                   </div>
                 )}
