@@ -1155,6 +1155,7 @@ export default function Dashboard() {
                     </span>
                     <p className={`text-sm leading-relaxed ${style.text}`}>
                       {suggestion.message}
+                      
                     </p>
                   </div>
                 </div>
