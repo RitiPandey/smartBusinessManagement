@@ -315,22 +315,22 @@ export default function Inventory() {
                 </div>
 
                 {/* Filter Button */}
-                <button className="px-4 py-3 bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-2xl hover:bg-white/90 transition-all duration-200 flex items-center gap-2 text-gray-700">
+                {/* <button className="px-4 py-3 bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-2xl hover:bg-white/90 transition-all duration-200 flex items-center gap-2 text-gray-700">
                   <Filter size={18} />
                   <span className="hidden sm:inline">Filter</span>
                 </button>
               </div>
 
-              <div className="flex gap-3">
+              <div className="flex gap-3"> */}
                 {/* Import/Export Buttons */}
-                <button className="px-4 py-3 bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-2xl hover:bg-white/90 transition-all duration-200 flex items-center gap-2 text-gray-700">
+                {/* <button className="px-4 py-3 bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-2xl hover:bg-white/90 transition-all duration-200 flex items-center gap-2 text-gray-700">
                   <Download size={18} />
                   <span className="hidden sm:inline">Export</span>
                 </button>
                 <button className="px-4 py-3 bg-white/70 backdrop-blur-sm border border-gray-200/50 rounded-2xl hover:bg-white/90 transition-all duration-200 flex items-center gap-2 text-gray-700">
                   <Upload size={18} />
                   <span className="hidden sm:inline">Import</span>
-                </button>
+                </button> */}
 
                 {/* Scan Button */}
                 <button
