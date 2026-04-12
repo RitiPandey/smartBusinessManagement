@@ -1,5 +1,5 @@
 ## Live Demo
-- Frontend: smart-business-management-liard.vercel.app
+- Frontend: https://smart-business-management-liard.vercel.app
 - Backend API: https://smart-business-management-tool.onrender.com/api
 
 ## GitHub
