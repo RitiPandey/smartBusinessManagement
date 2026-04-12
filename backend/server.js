@@ -9,7 +9,7 @@ const app = express();
 const corsOptions = {
   origin: [
     'http://localhost:5173',
-    'smart-business-management-liard.vercel.app',   
+    'https://smart-business-management-liard.vercel.app',   
   ],
   credentials: true,
 };
