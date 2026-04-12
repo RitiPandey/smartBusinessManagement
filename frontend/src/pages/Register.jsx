@@ -95,7 +95,7 @@ export default function Register() {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="Ramesh Sharma"
+                placeholder="Riti Pandey"
                 className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 hover:border-gray-300"
               />
             </div>
@@ -112,7 +112,7 @@ export default function Register() {
                 name="shopName"
                 value={form.shopName}
                 onChange={handleChange}
-                placeholder="Ramesh General Store"
+                placeholder="Pandey General Store"
                 className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 hover:border-gray-300"
               />
             </div>
@@ -129,7 +129,7 @@ export default function Register() {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="ramesh@example.com"
+                placeholder="riti@example.com"
                 className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 hover:border-gray-300"
               />
             </div>
